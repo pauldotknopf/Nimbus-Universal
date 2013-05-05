@@ -227,8 +227,6 @@
 		DAF64DC3173452FF005EFA2F /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64DB0173452FF005EFA2F /* AFXMLRequestOperation.m */; };
 		DAF64DC4173452FF005EFA2F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64DB1173452FF005EFA2F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAF64DC5173452FF005EFA2F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64DB2173452FF005EFA2F /* UIImageView+AFNetworking.m */; };
-		DAF64DC717345474005EFA2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF64DC617345474005EFA2F /* CoreGraphics.framework */; };
-		DAF64DC91734547B005EFA2F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF64DC81734547B005EFA2F /* CoreText.framework */; };
 		DAF64DCB1734549C005EFA2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF64DCA1734549C005EFA2F /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -455,8 +453,6 @@
 		DAF64DB0173452FF005EFA2F /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = SubModules/Nimbus/thirdparty/AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		DAF64DB1173452FF005EFA2F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "SubModules/Nimbus/thirdparty/AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		DAF64DB2173452FF005EFA2F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "SubModules/Nimbus/thirdparty/AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		DAF64DC617345474005EFA2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DAF64DC81734547B005EFA2F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		DAF64DCA1734549C005EFA2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -466,8 +462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF64DCB1734549C005EFA2F /* UIKit.framework in Frameworks */,
-				DAF64DC91734547B005EFA2F /* CoreText.framework in Frameworks */,
-				DAF64DC717345474005EFA2F /* CoreGraphics.framework in Frameworks */,
 				DAE5100A172EE5AC00B5F208 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,8 +585,6 @@
 			isa = PBXGroup;
 			children = (
 				DAF64DCA1734549C005EFA2F /* UIKit.framework */,
-				DAF64DC81734547B005EFA2F /* CoreText.framework */,
-				DAF64DC617345474005EFA2F /* CoreGraphics.framework */,
 				DAE51009172EE5AC00B5F208 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -1259,6 +1251,9 @@
 				DSTROOT = /tmp/Nimbus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nimbus/Nimbus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "asdf=324";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1271,6 +1266,9 @@
 				DSTROOT = /tmp/Nimbus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nimbus/Nimbus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "asdf=324";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
