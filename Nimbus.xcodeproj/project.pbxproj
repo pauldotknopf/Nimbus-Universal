@@ -80,6 +80,47 @@
 		DA2E026A172EE83C00A7EF9A /* NILauncherViewObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2E025D172EE83C00A7EF9A /* NILauncherViewObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2E026B172EE83C00A7EF9A /* NILauncherViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E025E172EE83C00A7EF9A /* NILauncherViewObject.m */; };
 		DA2E026C172EE83C00A7EF9A /* NimbusLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2E025F172EE83C00A7EF9A /* NimbusLauncher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC383441737442F0067F161 /* CSSTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3831B1737442F0067F161 /* CSSTokenizer.m */; };
+		DAC383451737442F0067F161 /* CSSTokens.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3831C1737442F0067F161 /* CSSTokens.h */; };
+		DAC383461737442F0067F161 /* CSSTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3831D1737442F0067F161 /* CSSTokens.m */; };
+		DAC383471737442F0067F161 /* NIChameleonObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3831E1737442F0067F161 /* NIChameleonObserver.h */; };
+		DAC383481737442F0067F161 /* NIChameleonObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3831F1737442F0067F161 /* NIChameleonObserver.m */; };
+		DAC383491737442F0067F161 /* NICSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383201737442F0067F161 /* NICSSParser.h */; };
+		DAC3834A1737442F0067F161 /* NICSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383211737442F0067F161 /* NICSSParser.m */; };
+		DAC3834B1737442F0067F161 /* NICSSRuleset.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383221737442F0067F161 /* NICSSRuleset.h */; };
+		DAC3834C1737442F0067F161 /* NICSSRuleset.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383231737442F0067F161 /* NICSSRuleset.m */; };
+		DAC3834D1737442F0067F161 /* NIDOM.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383241737442F0067F161 /* NIDOM.h */; };
+		DAC3834E1737442F0067F161 /* NIDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383251737442F0067F161 /* NIDOM.m */; };
+		DAC3834F1737442F0067F161 /* NimbusCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383261737442F0067F161 /* NimbusCSS.h */; };
+		DAC383501737442F0067F161 /* NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383271737442F0067F161 /* NIStyleable.h */; };
+		DAC383511737442F0067F161 /* NIStylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383281737442F0067F161 /* NIStylesheet.h */; };
+		DAC383521737442F0067F161 /* NIStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383291737442F0067F161 /* NIStylesheet.m */; };
+		DAC383531737442F0067F161 /* NIStylesheetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832A1737442F0067F161 /* NIStylesheetCache.h */; };
+		DAC383541737442F0067F161 /* NIStylesheetCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3832B1737442F0067F161 /* NIStylesheetCache.m */; };
+		DAC383551737442F0067F161 /* NITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832C1737442F0067F161 /* NITextField+NIStyleable.h */; };
+		DAC383561737442F0067F161 /* NITextField+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3832D1737442F0067F161 /* NITextField+NIStyleable.m */; };
+		DAC383571737442F0067F161 /* NIUserInterfaceString.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832E1737442F0067F161 /* NIUserInterfaceString.h */; };
+		DAC383581737442F0067F161 /* NIUserInterfaceString.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3832F1737442F0067F161 /* NIUserInterfaceString.m */; };
+		DAC383591737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383301737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h */; };
+		DAC3835A1737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383311737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m */; };
+		DAC3835B1737442F0067F161 /* UIButton+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383321737442F0067F161 /* UIButton+NIStyleable.h */; };
+		DAC3835C1737442F0067F161 /* UIButton+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383331737442F0067F161 /* UIButton+NIStyleable.m */; };
+		DAC3835D1737442F0067F161 /* UILabel+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383341737442F0067F161 /* UILabel+NIStyleable.h */; };
+		DAC3835E1737442F0067F161 /* UILabel+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383351737442F0067F161 /* UILabel+NIStyleable.m */; };
+		DAC3835F1737442F0067F161 /* UINavigationBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383361737442F0067F161 /* UINavigationBar+NIStyleable.h */; };
+		DAC383601737442F0067F161 /* UINavigationBar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383371737442F0067F161 /* UINavigationBar+NIStyleable.m */; };
+		DAC383611737442F0067F161 /* UIScrollView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383381737442F0067F161 /* UIScrollView+NIStyleable.h */; };
+		DAC383621737442F0067F161 /* UIScrollView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383391737442F0067F161 /* UIScrollView+NIStyleable.m */; };
+		DAC383631737442F0067F161 /* UISearchBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833A1737442F0067F161 /* UISearchBar+NIStyleable.h */; };
+		DAC383641737442F0067F161 /* UISearchBar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3833B1737442F0067F161 /* UISearchBar+NIStyleable.m */; };
+		DAC383651737442F0067F161 /* UITableView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833C1737442F0067F161 /* UITableView+NIStyleable.h */; };
+		DAC383661737442F0067F161 /* UITableView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3833D1737442F0067F161 /* UITableView+NIStyleable.m */; };
+		DAC383671737442F0067F161 /* UITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833E1737442F0067F161 /* UITextField+NIStyleable.h */; };
+		DAC383681737442F0067F161 /* UITextField+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3833F1737442F0067F161 /* UITextField+NIStyleable.m */; };
+		DAC383691737442F0067F161 /* UIToolbar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383401737442F0067F161 /* UIToolbar+NIStyleable.h */; };
+		DAC3836A1737442F0067F161 /* UIToolbar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383411737442F0067F161 /* UIToolbar+NIStyleable.m */; };
+		DAC3836B1737442F0067F161 /* UIView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383421737442F0067F161 /* UIView+NIStyleable.h */; };
+		DAC3836C1737442F0067F161 /* UIView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383431737442F0067F161 /* UIView+NIStyleable.m */; };
 		DAE5100A172EE5AC00B5F208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE51009172EE5AC00B5F208 /* Foundation.framework */; };
 		DAF64C6717344D92005EFA2F /* NIAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C6217344D92005EFA2F /* NIAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAF64C6817344D92005EFA2F /* NIAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C6317344D92005EFA2F /* NIAttributedLabel.m */; };
@@ -100,45 +141,6 @@
 		DAF64C8717344E07005EFA2F /* NIMutableCollectionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C7C17344E07005EFA2F /* NIMutableCollectionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAF64C8817344E07005EFA2F /* NIMutableCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C7D17344E07005EFA2F /* NIMutableCollectionViewModel.m */; };
 		DAF64C8917344E07005EFA2F /* NIMutableCollectionViewModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C7E17344E07005EFA2F /* NIMutableCollectionViewModel+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CB417344E30005EFA2F /* CSSTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C8B17344E30005EFA2F /* CSSTokenizer.m */; };
-		DAF64CB517344E30005EFA2F /* CSSTokens.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C8C17344E30005EFA2F /* CSSTokens.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CB617344E30005EFA2F /* CSSTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C8D17344E30005EFA2F /* CSSTokens.m */; };
-		DAF64CB917344E30005EFA2F /* NICSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9017344E30005EFA2F /* NICSSParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CBA17344E30005EFA2F /* NICSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9117344E30005EFA2F /* NICSSParser.m */; };
-		DAF64CBB17344E30005EFA2F /* NICSSRuleset.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9217344E30005EFA2F /* NICSSRuleset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CBC17344E30005EFA2F /* NICSSRuleset.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9317344E30005EFA2F /* NICSSRuleset.m */; };
-		DAF64CBD17344E30005EFA2F /* NIDOM.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9417344E30005EFA2F /* NIDOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CBE17344E30005EFA2F /* NIDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9517344E30005EFA2F /* NIDOM.m */; };
-		DAF64CBF17344E30005EFA2F /* NimbusCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9617344E30005EFA2F /* NimbusCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CC017344E30005EFA2F /* NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9717344E30005EFA2F /* NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CC117344E30005EFA2F /* NIStylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9817344E30005EFA2F /* NIStylesheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CC217344E30005EFA2F /* NIStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9917344E30005EFA2F /* NIStylesheet.m */; };
-		DAF64CC317344E30005EFA2F /* NIStylesheetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9A17344E30005EFA2F /* NIStylesheetCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CC417344E30005EFA2F /* NIStylesheetCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9B17344E30005EFA2F /* NIStylesheetCache.m */; };
-		DAF64CC517344E30005EFA2F /* NITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9C17344E30005EFA2F /* NITextField+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CC617344E30005EFA2F /* NITextField+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9D17344E30005EFA2F /* NITextField+NIStyleable.m */; };
-		DAF64CC717344E30005EFA2F /* NIUserInterfaceString.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C9E17344E30005EFA2F /* NIUserInterfaceString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CC817344E30005EFA2F /* NIUserInterfaceString.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C9F17344E30005EFA2F /* NIUserInterfaceString.m */; };
-		DAF64CC917344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CA017344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CCA17344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CA117344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.m */; };
-		DAF64CCB17344E30005EFA2F /* UIButton+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CA217344E30005EFA2F /* UIButton+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CCC17344E30005EFA2F /* UIButton+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CA317344E30005EFA2F /* UIButton+NIStyleable.m */; };
-		DAF64CCD17344E30005EFA2F /* UILabel+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CA417344E30005EFA2F /* UILabel+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CCE17344E30005EFA2F /* UILabel+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CA517344E30005EFA2F /* UILabel+NIStyleable.m */; };
-		DAF64CCF17344E30005EFA2F /* UINavigationBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CA617344E30005EFA2F /* UINavigationBar+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CD017344E30005EFA2F /* UINavigationBar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CA717344E30005EFA2F /* UINavigationBar+NIStyleable.m */; };
-		DAF64CD117344E30005EFA2F /* UIScrollView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CA817344E30005EFA2F /* UIScrollView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CD217344E30005EFA2F /* UIScrollView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CA917344E30005EFA2F /* UIScrollView+NIStyleable.m */; };
-		DAF64CD317344E30005EFA2F /* UISearchBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CAA17344E30005EFA2F /* UISearchBar+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CD417344E30005EFA2F /* UISearchBar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CAB17344E30005EFA2F /* UISearchBar+NIStyleable.m */; };
-		DAF64CD517344E30005EFA2F /* UITableView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CAC17344E30005EFA2F /* UITableView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CD617344E30005EFA2F /* UITableView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CAD17344E30005EFA2F /* UITableView+NIStyleable.m */; };
-		DAF64CD717344E30005EFA2F /* UITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CAE17344E30005EFA2F /* UITextField+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CD817344E30005EFA2F /* UITextField+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CAF17344E30005EFA2F /* UITextField+NIStyleable.m */; };
-		DAF64CD917344E30005EFA2F /* UIToolbar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CB017344E30005EFA2F /* UIToolbar+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CDA17344E30005EFA2F /* UIToolbar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CB117344E30005EFA2F /* UIToolbar+NIStyleable.m */; };
-		DAF64CDB17344E30005EFA2F /* UIView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CB217344E30005EFA2F /* UIView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF64CDC17344E30005EFA2F /* UIView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CB317344E30005EFA2F /* UIView+NIStyleable.m */; };
 		DAF64CE117344E83005EFA2F /* NIInterapp.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CDE17344E83005EFA2F /* NIInterapp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAF64CE217344E83005EFA2F /* NIInterapp.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64CDF17344E83005EFA2F /* NIInterapp.m */; };
 		DAF64CE317344E83005EFA2F /* NimbusInterapp.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64CE017344E83005EFA2F /* NimbusInterapp.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -304,6 +306,48 @@
 		DA2E025D172EE83C00A7EF9A /* NILauncherViewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NILauncherViewObject.h; path = SubModules/Nimbus/src/launcher/src/NILauncherViewObject.h; sourceTree = SOURCE_ROOT; };
 		DA2E025E172EE83C00A7EF9A /* NILauncherViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NILauncherViewObject.m; path = SubModules/Nimbus/src/launcher/src/NILauncherViewObject.m; sourceTree = SOURCE_ROOT; };
 		DA2E025F172EE83C00A7EF9A /* NimbusLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NimbusLauncher.h; path = SubModules/Nimbus/src/launcher/src/NimbusLauncher.h; sourceTree = SOURCE_ROOT; };
+		DAC38319173742E30067F161 /* Preprocessed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preprocessed.m; sourceTree = "<group>"; };
+		DAC3831B1737442F0067F161 /* CSSTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSSTokenizer.m; path = SubModules/Nimbus/src/css/src/CSSTokenizer.m; sourceTree = SOURCE_ROOT; };
+		DAC3831C1737442F0067F161 /* CSSTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSSTokens.h; path = SubModules/Nimbus/src/css/src/CSSTokens.h; sourceTree = SOURCE_ROOT; };
+		DAC3831D1737442F0067F161 /* CSSTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSSTokens.m; path = SubModules/Nimbus/src/css/src/CSSTokens.m; sourceTree = SOURCE_ROOT; };
+		DAC3831E1737442F0067F161 /* NIChameleonObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIChameleonObserver.h; path = SubModules/Nimbus/src/css/src/NIChameleonObserver.h; sourceTree = SOURCE_ROOT; };
+		DAC3831F1737442F0067F161 /* NIChameleonObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIChameleonObserver.m; path = SubModules/Nimbus/src/css/src/NIChameleonObserver.m; sourceTree = SOURCE_ROOT; };
+		DAC383201737442F0067F161 /* NICSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICSSParser.h; path = SubModules/Nimbus/src/css/src/NICSSParser.h; sourceTree = SOURCE_ROOT; };
+		DAC383211737442F0067F161 /* NICSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICSSParser.m; path = SubModules/Nimbus/src/css/src/NICSSParser.m; sourceTree = SOURCE_ROOT; };
+		DAC383221737442F0067F161 /* NICSSRuleset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICSSRuleset.h; path = SubModules/Nimbus/src/css/src/NICSSRuleset.h; sourceTree = SOURCE_ROOT; };
+		DAC383231737442F0067F161 /* NICSSRuleset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICSSRuleset.m; path = SubModules/Nimbus/src/css/src/NICSSRuleset.m; sourceTree = SOURCE_ROOT; };
+		DAC383241737442F0067F161 /* NIDOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIDOM.h; path = SubModules/Nimbus/src/css/src/NIDOM.h; sourceTree = SOURCE_ROOT; };
+		DAC383251737442F0067F161 /* NIDOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIDOM.m; path = SubModules/Nimbus/src/css/src/NIDOM.m; sourceTree = SOURCE_ROOT; };
+		DAC383261737442F0067F161 /* NimbusCSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NimbusCSS.h; path = SubModules/Nimbus/src/css/src/NimbusCSS.h; sourceTree = SOURCE_ROOT; };
+		DAC383271737442F0067F161 /* NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIStyleable.h; path = SubModules/Nimbus/src/css/src/NIStyleable.h; sourceTree = SOURCE_ROOT; };
+		DAC383281737442F0067F161 /* NIStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIStylesheet.h; path = SubModules/Nimbus/src/css/src/NIStylesheet.h; sourceTree = SOURCE_ROOT; };
+		DAC383291737442F0067F161 /* NIStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIStylesheet.m; path = SubModules/Nimbus/src/css/src/NIStylesheet.m; sourceTree = SOURCE_ROOT; };
+		DAC3832A1737442F0067F161 /* NIStylesheetCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIStylesheetCache.h; path = SubModules/Nimbus/src/css/src/NIStylesheetCache.h; sourceTree = SOURCE_ROOT; };
+		DAC3832B1737442F0067F161 /* NIStylesheetCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIStylesheetCache.m; path = SubModules/Nimbus/src/css/src/NIStylesheetCache.m; sourceTree = SOURCE_ROOT; };
+		DAC3832C1737442F0067F161 /* NITextField+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NITextField+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/NITextField+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC3832D1737442F0067F161 /* NITextField+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NITextField+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/NITextField+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC3832E1737442F0067F161 /* NIUserInterfaceString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIUserInterfaceString.h; path = SubModules/Nimbus/src/css/src/NIUserInterfaceString.h; sourceTree = SOURCE_ROOT; };
+		DAC3832F1737442F0067F161 /* NIUserInterfaceString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIUserInterfaceString.m; path = SubModules/Nimbus/src/css/src/NIUserInterfaceString.m; sourceTree = SOURCE_ROOT; };
+		DAC383301737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIActivityIndicatorView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383311737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIActivityIndicatorView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC383321737442F0067F161 /* UIButton+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIButton+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383331737442F0067F161 /* UIButton+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIButton+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC383341737442F0067F161 /* UILabel+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UILabel+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383351737442F0067F161 /* UILabel+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UILabel+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC383361737442F0067F161 /* UINavigationBar+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UINavigationBar+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383371737442F0067F161 /* UINavigationBar+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UINavigationBar+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC383381737442F0067F161 /* UIScrollView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIScrollView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383391737442F0067F161 /* UIScrollView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIScrollView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC3833A1737442F0067F161 /* UISearchBar+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UISearchBar+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC3833B1737442F0067F161 /* UISearchBar+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UISearchBar+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC3833C1737442F0067F161 /* UITableView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UITableView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC3833D1737442F0067F161 /* UITableView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UITableView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC3833E1737442F0067F161 /* UITextField+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UITextField+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC3833F1737442F0067F161 /* UITextField+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UITextField+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC383401737442F0067F161 /* UIToolbar+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIToolbar+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383411737442F0067F161 /* UIToolbar+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIToolbar+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
+		DAC383421737442F0067F161 /* UIView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
+		DAC383431737442F0067F161 /* UIView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
 		DAE51006172EE5AC00B5F208 /* libNimbus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE51009172EE5AC00B5F208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DAE5100D172EE5AC00B5F208 /* Nimbus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nimbus-Prefix.pch"; sourceTree = "<group>"; };
@@ -326,45 +370,6 @@
 		DAF64C7C17344E07005EFA2F /* NIMutableCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIMutableCollectionViewModel.h; path = SubModules/Nimbus/src/collections/src/NIMutableCollectionViewModel.h; sourceTree = SOURCE_ROOT; };
 		DAF64C7D17344E07005EFA2F /* NIMutableCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIMutableCollectionViewModel.m; path = SubModules/Nimbus/src/collections/src/NIMutableCollectionViewModel.m; sourceTree = SOURCE_ROOT; };
 		DAF64C7E17344E07005EFA2F /* NIMutableCollectionViewModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NIMutableCollectionViewModel+Private.h"; path = "SubModules/Nimbus/src/collections/src/NIMutableCollectionViewModel+Private.h"; sourceTree = SOURCE_ROOT; };
-		DAF64C8B17344E30005EFA2F /* CSSTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSSTokenizer.m; path = SubModules/Nimbus/src/css/src/CSSTokenizer.m; sourceTree = SOURCE_ROOT; };
-		DAF64C8C17344E30005EFA2F /* CSSTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSSTokens.h; path = SubModules/Nimbus/src/css/src/CSSTokens.h; sourceTree = SOURCE_ROOT; };
-		DAF64C8D17344E30005EFA2F /* CSSTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSSTokens.m; path = SubModules/Nimbus/src/css/src/CSSTokens.m; sourceTree = SOURCE_ROOT; };
-		DAF64C9017344E30005EFA2F /* NICSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICSSParser.h; path = SubModules/Nimbus/src/css/src/NICSSParser.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9117344E30005EFA2F /* NICSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICSSParser.m; path = SubModules/Nimbus/src/css/src/NICSSParser.m; sourceTree = SOURCE_ROOT; };
-		DAF64C9217344E30005EFA2F /* NICSSRuleset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICSSRuleset.h; path = SubModules/Nimbus/src/css/src/NICSSRuleset.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9317344E30005EFA2F /* NICSSRuleset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICSSRuleset.m; path = SubModules/Nimbus/src/css/src/NICSSRuleset.m; sourceTree = SOURCE_ROOT; };
-		DAF64C9417344E30005EFA2F /* NIDOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIDOM.h; path = SubModules/Nimbus/src/css/src/NIDOM.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9517344E30005EFA2F /* NIDOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIDOM.m; path = SubModules/Nimbus/src/css/src/NIDOM.m; sourceTree = SOURCE_ROOT; };
-		DAF64C9617344E30005EFA2F /* NimbusCSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NimbusCSS.h; path = SubModules/Nimbus/src/css/src/NimbusCSS.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9717344E30005EFA2F /* NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIStyleable.h; path = SubModules/Nimbus/src/css/src/NIStyleable.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9817344E30005EFA2F /* NIStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIStylesheet.h; path = SubModules/Nimbus/src/css/src/NIStylesheet.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9917344E30005EFA2F /* NIStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIStylesheet.m; path = SubModules/Nimbus/src/css/src/NIStylesheet.m; sourceTree = SOURCE_ROOT; };
-		DAF64C9A17344E30005EFA2F /* NIStylesheetCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIStylesheetCache.h; path = SubModules/Nimbus/src/css/src/NIStylesheetCache.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9B17344E30005EFA2F /* NIStylesheetCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIStylesheetCache.m; path = SubModules/Nimbus/src/css/src/NIStylesheetCache.m; sourceTree = SOURCE_ROOT; };
-		DAF64C9C17344E30005EFA2F /* NITextField+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NITextField+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/NITextField+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64C9D17344E30005EFA2F /* NITextField+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NITextField+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/NITextField+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64C9E17344E30005EFA2F /* NIUserInterfaceString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIUserInterfaceString.h; path = SubModules/Nimbus/src/css/src/NIUserInterfaceString.h; sourceTree = SOURCE_ROOT; };
-		DAF64C9F17344E30005EFA2F /* NIUserInterfaceString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIUserInterfaceString.m; path = SubModules/Nimbus/src/css/src/NIUserInterfaceString.m; sourceTree = SOURCE_ROOT; };
-		DAF64CA017344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIActivityIndicatorView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CA117344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIActivityIndicatorView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CA217344E30005EFA2F /* UIButton+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIButton+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CA317344E30005EFA2F /* UIButton+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIButton+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CA417344E30005EFA2F /* UILabel+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UILabel+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CA517344E30005EFA2F /* UILabel+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UILabel+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CA617344E30005EFA2F /* UINavigationBar+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UINavigationBar+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CA717344E30005EFA2F /* UINavigationBar+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UINavigationBar+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CA817344E30005EFA2F /* UIScrollView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIScrollView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CA917344E30005EFA2F /* UIScrollView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIScrollView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CAA17344E30005EFA2F /* UISearchBar+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UISearchBar+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CAB17344E30005EFA2F /* UISearchBar+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UISearchBar+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CAC17344E30005EFA2F /* UITableView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UITableView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CAD17344E30005EFA2F /* UITableView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UITableView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CAE17344E30005EFA2F /* UITextField+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UITextField+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CAF17344E30005EFA2F /* UITextField+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UITextField+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CB017344E30005EFA2F /* UIToolbar+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIToolbar+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CB117344E30005EFA2F /* UIToolbar+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIToolbar+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
-		DAF64CB217344E30005EFA2F /* UIView+NIStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+NIStyleable.h"; path = "SubModules/Nimbus/src/css/src/UIView+NIStyleable.h"; sourceTree = SOURCE_ROOT; };
-		DAF64CB317344E30005EFA2F /* UIView+NIStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+NIStyleable.m"; path = "SubModules/Nimbus/src/css/src/UIView+NIStyleable.m"; sourceTree = SOURCE_ROOT; };
 		DAF64CDE17344E83005EFA2F /* NIInterapp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIInterapp.h; path = SubModules/Nimbus/src/interapp/src/NIInterapp.h; sourceTree = SOURCE_ROOT; };
 		DAF64CDF17344E83005EFA2F /* NIInterapp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIInterapp.m; path = SubModules/Nimbus/src/interapp/src/NIInterapp.m; sourceTree = SOURCE_ROOT; };
 		DAF64CE017344E83005EFA2F /* NimbusInterapp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NimbusInterapp.h; path = SubModules/Nimbus/src/interapp/src/NimbusInterapp.h; sourceTree = SOURCE_ROOT; };
@@ -609,6 +614,7 @@
 				DA2E023F172EE80000A7EF9A /* PagingScrollView */,
 				DA2E01D8172EE79F00A7EF9A /* Core */,
 				DAE5100C172EE5AC00B5F208 /* Supporting Files */,
+				DAC38319173742E30067F161 /* Preprocessed.m */,
 			);
 			path = Nimbus;
 			sourceTree = "<group>";
@@ -664,45 +670,47 @@
 		DAF64C8A17344E13005EFA2F /* Css */ = {
 			isa = PBXGroup;
 			children = (
-				DAF64C8B17344E30005EFA2F /* CSSTokenizer.m */,
-				DAF64C8C17344E30005EFA2F /* CSSTokens.h */,
-				DAF64C8D17344E30005EFA2F /* CSSTokens.m */,
-				DAF64C9017344E30005EFA2F /* NICSSParser.h */,
-				DAF64C9117344E30005EFA2F /* NICSSParser.m */,
-				DAF64C9217344E30005EFA2F /* NICSSRuleset.h */,
-				DAF64C9317344E30005EFA2F /* NICSSRuleset.m */,
-				DAF64C9417344E30005EFA2F /* NIDOM.h */,
-				DAF64C9517344E30005EFA2F /* NIDOM.m */,
-				DAF64C9617344E30005EFA2F /* NimbusCSS.h */,
-				DAF64C9717344E30005EFA2F /* NIStyleable.h */,
-				DAF64C9817344E30005EFA2F /* NIStylesheet.h */,
-				DAF64C9917344E30005EFA2F /* NIStylesheet.m */,
-				DAF64C9A17344E30005EFA2F /* NIStylesheetCache.h */,
-				DAF64C9B17344E30005EFA2F /* NIStylesheetCache.m */,
-				DAF64C9C17344E30005EFA2F /* NITextField+NIStyleable.h */,
-				DAF64C9D17344E30005EFA2F /* NITextField+NIStyleable.m */,
-				DAF64C9E17344E30005EFA2F /* NIUserInterfaceString.h */,
-				DAF64C9F17344E30005EFA2F /* NIUserInterfaceString.m */,
-				DAF64CA017344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.h */,
-				DAF64CA117344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.m */,
-				DAF64CA217344E30005EFA2F /* UIButton+NIStyleable.h */,
-				DAF64CA317344E30005EFA2F /* UIButton+NIStyleable.m */,
-				DAF64CA417344E30005EFA2F /* UILabel+NIStyleable.h */,
-				DAF64CA517344E30005EFA2F /* UILabel+NIStyleable.m */,
-				DAF64CA617344E30005EFA2F /* UINavigationBar+NIStyleable.h */,
-				DAF64CA717344E30005EFA2F /* UINavigationBar+NIStyleable.m */,
-				DAF64CA817344E30005EFA2F /* UIScrollView+NIStyleable.h */,
-				DAF64CA917344E30005EFA2F /* UIScrollView+NIStyleable.m */,
-				DAF64CAA17344E30005EFA2F /* UISearchBar+NIStyleable.h */,
-				DAF64CAB17344E30005EFA2F /* UISearchBar+NIStyleable.m */,
-				DAF64CAC17344E30005EFA2F /* UITableView+NIStyleable.h */,
-				DAF64CAD17344E30005EFA2F /* UITableView+NIStyleable.m */,
-				DAF64CAE17344E30005EFA2F /* UITextField+NIStyleable.h */,
-				DAF64CAF17344E30005EFA2F /* UITextField+NIStyleable.m */,
-				DAF64CB017344E30005EFA2F /* UIToolbar+NIStyleable.h */,
-				DAF64CB117344E30005EFA2F /* UIToolbar+NIStyleable.m */,
-				DAF64CB217344E30005EFA2F /* UIView+NIStyleable.h */,
-				DAF64CB317344E30005EFA2F /* UIView+NIStyleable.m */,
+				DAC3831B1737442F0067F161 /* CSSTokenizer.m */,
+				DAC3831C1737442F0067F161 /* CSSTokens.h */,
+				DAC3831D1737442F0067F161 /* CSSTokens.m */,
+				DAC3831E1737442F0067F161 /* NIChameleonObserver.h */,
+				DAC3831F1737442F0067F161 /* NIChameleonObserver.m */,
+				DAC383201737442F0067F161 /* NICSSParser.h */,
+				DAC383211737442F0067F161 /* NICSSParser.m */,
+				DAC383221737442F0067F161 /* NICSSRuleset.h */,
+				DAC383231737442F0067F161 /* NICSSRuleset.m */,
+				DAC383241737442F0067F161 /* NIDOM.h */,
+				DAC383251737442F0067F161 /* NIDOM.m */,
+				DAC383261737442F0067F161 /* NimbusCSS.h */,
+				DAC383271737442F0067F161 /* NIStyleable.h */,
+				DAC383281737442F0067F161 /* NIStylesheet.h */,
+				DAC383291737442F0067F161 /* NIStylesheet.m */,
+				DAC3832A1737442F0067F161 /* NIStylesheetCache.h */,
+				DAC3832B1737442F0067F161 /* NIStylesheetCache.m */,
+				DAC3832C1737442F0067F161 /* NITextField+NIStyleable.h */,
+				DAC3832D1737442F0067F161 /* NITextField+NIStyleable.m */,
+				DAC3832E1737442F0067F161 /* NIUserInterfaceString.h */,
+				DAC3832F1737442F0067F161 /* NIUserInterfaceString.m */,
+				DAC383301737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h */,
+				DAC383311737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m */,
+				DAC383321737442F0067F161 /* UIButton+NIStyleable.h */,
+				DAC383331737442F0067F161 /* UIButton+NIStyleable.m */,
+				DAC383341737442F0067F161 /* UILabel+NIStyleable.h */,
+				DAC383351737442F0067F161 /* UILabel+NIStyleable.m */,
+				DAC383361737442F0067F161 /* UINavigationBar+NIStyleable.h */,
+				DAC383371737442F0067F161 /* UINavigationBar+NIStyleable.m */,
+				DAC383381737442F0067F161 /* UIScrollView+NIStyleable.h */,
+				DAC383391737442F0067F161 /* UIScrollView+NIStyleable.m */,
+				DAC3833A1737442F0067F161 /* UISearchBar+NIStyleable.h */,
+				DAC3833B1737442F0067F161 /* UISearchBar+NIStyleable.m */,
+				DAC3833C1737442F0067F161 /* UITableView+NIStyleable.h */,
+				DAC3833D1737442F0067F161 /* UITableView+NIStyleable.m */,
+				DAC3833E1737442F0067F161 /* UITextField+NIStyleable.h */,
+				DAC3833F1737442F0067F161 /* UITextField+NIStyleable.m */,
+				DAC383401737442F0067F161 /* UIToolbar+NIStyleable.h */,
+				DAC383411737442F0067F161 /* UIToolbar+NIStyleable.m */,
+				DAC383421737442F0067F161 /* UIView+NIStyleable.h */,
+				DAC383431737442F0067F161 /* UIView+NIStyleable.m */,
 			);
 			name = Css;
 			sourceTree = "<group>";
@@ -931,16 +939,6 @@
 				DAF64C8617344E07005EFA2F /* NimbusCollections.h in Headers */,
 				DAF64C8717344E07005EFA2F /* NIMutableCollectionViewModel.h in Headers */,
 				DAF64C8917344E07005EFA2F /* NIMutableCollectionViewModel+Private.h in Headers */,
-				DAF64CB517344E30005EFA2F /* CSSTokens.h in Headers */,
-				DAF64CB917344E30005EFA2F /* NICSSParser.h in Headers */,
-				DAF64CBB17344E30005EFA2F /* NICSSRuleset.h in Headers */,
-				DAF64CBD17344E30005EFA2F /* NIDOM.h in Headers */,
-				DAF64CBF17344E30005EFA2F /* NimbusCSS.h in Headers */,
-				DAF64CD317344E30005EFA2F /* UISearchBar+NIStyleable.h in Headers */,
-				DAF64CD517344E30005EFA2F /* UITableView+NIStyleable.h in Headers */,
-				DAF64CD717344E30005EFA2F /* UITextField+NIStyleable.h in Headers */,
-				DAF64CD917344E30005EFA2F /* UIToolbar+NIStyleable.h in Headers */,
-				DAF64CDB17344E30005EFA2F /* UIView+NIStyleable.h in Headers */,
 				DAF64CE117344E83005EFA2F /* NIInterapp.h in Headers */,
 				DAF64CE317344E83005EFA2F /* NimbusInterapp.h in Headers */,
 				DAF64D2517344F0C005EFA2F /* NICellBackgrounds.h in Headers */,
@@ -992,20 +990,31 @@
 				DAF64DC0173452FF005EFA2F /* AFURLConnectionOperation.h in Headers */,
 				DAF64DC2173452FF005EFA2F /* AFXMLRequestOperation.h in Headers */,
 				DAF64DC4173452FF005EFA2F /* UIImageView+AFNetworking.h in Headers */,
-				DAF64CC017344E30005EFA2F /* NIStyleable.h in Headers */,
-				DAF64CC117344E30005EFA2F /* NIStylesheet.h in Headers */,
-				DAF64CC317344E30005EFA2F /* NIStylesheetCache.h in Headers */,
-				DAF64CC517344E30005EFA2F /* NITextField+NIStyleable.h in Headers */,
-				DAF64CC717344E30005EFA2F /* NIUserInterfaceString.h in Headers */,
-				DAF64CC917344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.h in Headers */,
-				DAF64CCB17344E30005EFA2F /* UIButton+NIStyleable.h in Headers */,
-				DAF64CCD17344E30005EFA2F /* UILabel+NIStyleable.h in Headers */,
-				DAF64CCF17344E30005EFA2F /* UINavigationBar+NIStyleable.h in Headers */,
-				DAF64CD117344E30005EFA2F /* UIScrollView+NIStyleable.h in Headers */,
 				DA2E0221172EE7C900A7EF9A /* NIInvocationMethods.h in Headers */,
 				DA2E0223172EE7C900A7EF9A /* NimbusCore.h in Headers */,
 				DA2E0224172EE7C900A7EF9A /* NimbusCore+Additions.h in Headers */,
 				DA2E0225172EE7C900A7EF9A /* NINavigationAppearance.h in Headers */,
+				DAC383451737442F0067F161 /* CSSTokens.h in Headers */,
+				DAC383471737442F0067F161 /* NIChameleonObserver.h in Headers */,
+				DAC383491737442F0067F161 /* NICSSParser.h in Headers */,
+				DAC3834B1737442F0067F161 /* NICSSRuleset.h in Headers */,
+				DAC3834D1737442F0067F161 /* NIDOM.h in Headers */,
+				DAC3834F1737442F0067F161 /* NimbusCSS.h in Headers */,
+				DAC383501737442F0067F161 /* NIStyleable.h in Headers */,
+				DAC383511737442F0067F161 /* NIStylesheet.h in Headers */,
+				DAC383531737442F0067F161 /* NIStylesheetCache.h in Headers */,
+				DAC383551737442F0067F161 /* NITextField+NIStyleable.h in Headers */,
+				DAC383571737442F0067F161 /* NIUserInterfaceString.h in Headers */,
+				DAC383591737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h in Headers */,
+				DAC3835B1737442F0067F161 /* UIButton+NIStyleable.h in Headers */,
+				DAC3835D1737442F0067F161 /* UILabel+NIStyleable.h in Headers */,
+				DAC3835F1737442F0067F161 /* UINavigationBar+NIStyleable.h in Headers */,
+				DAC383611737442F0067F161 /* UIScrollView+NIStyleable.h in Headers */,
+				DAC383631737442F0067F161 /* UISearchBar+NIStyleable.h in Headers */,
+				DAC383651737442F0067F161 /* UITableView+NIStyleable.h in Headers */,
+				DAC383671737442F0067F161 /* UITextField+NIStyleable.h in Headers */,
+				DAC383691737442F0067F161 /* UIToolbar+NIStyleable.h in Headers */,
+				DAC3836B1737442F0067F161 /* UIView+NIStyleable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1129,25 +1138,6 @@
 				DAF64C8217344E07005EFA2F /* NICollectionViewCellFactory.m in Sources */,
 				DAF64C8417344E07005EFA2F /* NICollectionViewModel.m in Sources */,
 				DAF64C8817344E07005EFA2F /* NIMutableCollectionViewModel.m in Sources */,
-				DAF64CB417344E30005EFA2F /* CSSTokenizer.m in Sources */,
-				DAF64CB617344E30005EFA2F /* CSSTokens.m in Sources */,
-				DAF64CBA17344E30005EFA2F /* NICSSParser.m in Sources */,
-				DAF64CBC17344E30005EFA2F /* NICSSRuleset.m in Sources */,
-				DAF64CBE17344E30005EFA2F /* NIDOM.m in Sources */,
-				DAF64CC217344E30005EFA2F /* NIStylesheet.m in Sources */,
-				DAF64CC417344E30005EFA2F /* NIStylesheetCache.m in Sources */,
-				DAF64CC617344E30005EFA2F /* NITextField+NIStyleable.m in Sources */,
-				DAF64CC817344E30005EFA2F /* NIUserInterfaceString.m in Sources */,
-				DAF64CCA17344E30005EFA2F /* UIActivityIndicatorView+NIStyleable.m in Sources */,
-				DAF64CCC17344E30005EFA2F /* UIButton+NIStyleable.m in Sources */,
-				DAF64CCE17344E30005EFA2F /* UILabel+NIStyleable.m in Sources */,
-				DAF64CD017344E30005EFA2F /* UINavigationBar+NIStyleable.m in Sources */,
-				DAF64CD217344E30005EFA2F /* UIScrollView+NIStyleable.m in Sources */,
-				DAF64CD417344E30005EFA2F /* UISearchBar+NIStyleable.m in Sources */,
-				DAF64CD617344E30005EFA2F /* UITableView+NIStyleable.m in Sources */,
-				DAF64CD817344E30005EFA2F /* UITextField+NIStyleable.m in Sources */,
-				DAF64CDA17344E30005EFA2F /* UIToolbar+NIStyleable.m in Sources */,
-				DAF64CDC17344E30005EFA2F /* UIView+NIStyleable.m in Sources */,
 				DAF64CE217344E83005EFA2F /* NIInterapp.m in Sources */,
 				DAF64D2617344F0C005EFA2F /* NICellBackgrounds.m in Sources */,
 				DAF64D2817344F0C005EFA2F /* NICellCatalog.m in Sources */,
@@ -1185,6 +1175,26 @@
 				DAF64DC1173452FF005EFA2F /* AFURLConnectionOperation.m in Sources */,
 				DAF64DC3173452FF005EFA2F /* AFXMLRequestOperation.m in Sources */,
 				DAF64DC5173452FF005EFA2F /* UIImageView+AFNetworking.m in Sources */,
+				DAC383441737442F0067F161 /* CSSTokenizer.m in Sources */,
+				DAC383461737442F0067F161 /* CSSTokens.m in Sources */,
+				DAC383481737442F0067F161 /* NIChameleonObserver.m in Sources */,
+				DAC3834A1737442F0067F161 /* NICSSParser.m in Sources */,
+				DAC3834C1737442F0067F161 /* NICSSRuleset.m in Sources */,
+				DAC3834E1737442F0067F161 /* NIDOM.m in Sources */,
+				DAC383521737442F0067F161 /* NIStylesheet.m in Sources */,
+				DAC383541737442F0067F161 /* NIStylesheetCache.m in Sources */,
+				DAC383561737442F0067F161 /* NITextField+NIStyleable.m in Sources */,
+				DAC383581737442F0067F161 /* NIUserInterfaceString.m in Sources */,
+				DAC3835A1737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m in Sources */,
+				DAC3835C1737442F0067F161 /* UIButton+NIStyleable.m in Sources */,
+				DAC3835E1737442F0067F161 /* UILabel+NIStyleable.m in Sources */,
+				DAC383601737442F0067F161 /* UINavigationBar+NIStyleable.m in Sources */,
+				DAC383621737442F0067F161 /* UIScrollView+NIStyleable.m in Sources */,
+				DAC383641737442F0067F161 /* UISearchBar+NIStyleable.m in Sources */,
+				DAC383661737442F0067F161 /* UITableView+NIStyleable.m in Sources */,
+				DAC383681737442F0067F161 /* UITextField+NIStyleable.m in Sources */,
+				DAC3836A1737442F0067F161 /* UIToolbar+NIStyleable.m in Sources */,
+				DAC3836C1737442F0067F161 /* UIView+NIStyleable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
