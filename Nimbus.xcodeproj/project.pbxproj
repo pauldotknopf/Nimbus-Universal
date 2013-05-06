@@ -121,6 +121,7 @@
 		DAC3836A1737442F0067F161 /* UIToolbar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383411737442F0067F161 /* UIToolbar+NIStyleable.m */; };
 		DAC3836B1737442F0067F161 /* UIView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383421737442F0067F161 /* UIView+NIStyleable.h */; };
 		DAC3836C1737442F0067F161 /* UIView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383431737442F0067F161 /* UIView+NIStyleable.m */; };
+		DAC3836E1737ED070067F161 /* Preprocessed.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC38319173742E30067F161 /* Preprocessed.m */; };
 		DAE5100A172EE5AC00B5F208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE51009172EE5AC00B5F208 /* Foundation.framework */; };
 		DAF64C6717344D92005EFA2F /* NIAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF64C6217344D92005EFA2F /* NIAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAF64C6817344D92005EFA2F /* NIAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF64C6317344D92005EFA2F /* NIAttributedLabel.m */; };
@@ -1100,6 +1101,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC3836E1737ED070067F161 /* Preprocessed.m in Sources */,
 				DA2E020D172EE7C900A7EF9A /* NIActions.m in Sources */,
 				DA2E0210172EE7C900A7EF9A /* NIButtonUtilities.m in Sources */,
 				DA2E0212172EE7C900A7EF9A /* NICommonMetrics.m in Sources */,

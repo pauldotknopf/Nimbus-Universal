@@ -1,3 +1,3 @@
 [submodule "SubModules/Nimbus"]
 	path = SubModules/Nimbus
-	url = https://github.com/jverkoey/nimbus.git
+url=https://github.com/theonlylawislove/nimbus.git
