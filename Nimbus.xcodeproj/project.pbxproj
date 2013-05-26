@@ -81,45 +81,45 @@
 		DA2E026B172EE83C00A7EF9A /* NILauncherViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E025E172EE83C00A7EF9A /* NILauncherViewObject.m */; };
 		DA2E026C172EE83C00A7EF9A /* NimbusLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2E025F172EE83C00A7EF9A /* NimbusLauncher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383441737442F0067F161 /* CSSTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3831B1737442F0067F161 /* CSSTokenizer.m */; };
-		DAC383451737442F0067F161 /* CSSTokens.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3831C1737442F0067F161 /* CSSTokens.h */; };
+		DAC383451737442F0067F161 /* CSSTokens.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3831C1737442F0067F161 /* CSSTokens.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383461737442F0067F161 /* CSSTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3831D1737442F0067F161 /* CSSTokens.m */; };
-		DAC383471737442F0067F161 /* NIChameleonObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3831E1737442F0067F161 /* NIChameleonObserver.h */; };
+		DAC383471737442F0067F161 /* NIChameleonObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3831E1737442F0067F161 /* NIChameleonObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383481737442F0067F161 /* NIChameleonObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3831F1737442F0067F161 /* NIChameleonObserver.m */; };
-		DAC383491737442F0067F161 /* NICSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383201737442F0067F161 /* NICSSParser.h */; };
+		DAC383491737442F0067F161 /* NICSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383201737442F0067F161 /* NICSSParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3834A1737442F0067F161 /* NICSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383211737442F0067F161 /* NICSSParser.m */; };
-		DAC3834B1737442F0067F161 /* NICSSRuleset.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383221737442F0067F161 /* NICSSRuleset.h */; };
+		DAC3834B1737442F0067F161 /* NICSSRuleset.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383221737442F0067F161 /* NICSSRuleset.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3834C1737442F0067F161 /* NICSSRuleset.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383231737442F0067F161 /* NICSSRuleset.m */; };
-		DAC3834D1737442F0067F161 /* NIDOM.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383241737442F0067F161 /* NIDOM.h */; };
+		DAC3834D1737442F0067F161 /* NIDOM.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383241737442F0067F161 /* NIDOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3834E1737442F0067F161 /* NIDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383251737442F0067F161 /* NIDOM.m */; };
-		DAC3834F1737442F0067F161 /* NimbusCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383261737442F0067F161 /* NimbusCSS.h */; };
-		DAC383501737442F0067F161 /* NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383271737442F0067F161 /* NIStyleable.h */; };
-		DAC383511737442F0067F161 /* NIStylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383281737442F0067F161 /* NIStylesheet.h */; };
+		DAC3834F1737442F0067F161 /* NimbusCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383261737442F0067F161 /* NimbusCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC383501737442F0067F161 /* NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383271737442F0067F161 /* NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC383511737442F0067F161 /* NIStylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383281737442F0067F161 /* NIStylesheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383521737442F0067F161 /* NIStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383291737442F0067F161 /* NIStylesheet.m */; };
-		DAC383531737442F0067F161 /* NIStylesheetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832A1737442F0067F161 /* NIStylesheetCache.h */; };
+		DAC383531737442F0067F161 /* NIStylesheetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832A1737442F0067F161 /* NIStylesheetCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383541737442F0067F161 /* NIStylesheetCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3832B1737442F0067F161 /* NIStylesheetCache.m */; };
-		DAC383551737442F0067F161 /* NITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832C1737442F0067F161 /* NITextField+NIStyleable.h */; };
+		DAC383551737442F0067F161 /* NITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832C1737442F0067F161 /* NITextField+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383561737442F0067F161 /* NITextField+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3832D1737442F0067F161 /* NITextField+NIStyleable.m */; };
-		DAC383571737442F0067F161 /* NIUserInterfaceString.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832E1737442F0067F161 /* NIUserInterfaceString.h */; };
+		DAC383571737442F0067F161 /* NIUserInterfaceString.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3832E1737442F0067F161 /* NIUserInterfaceString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383581737442F0067F161 /* NIUserInterfaceString.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3832F1737442F0067F161 /* NIUserInterfaceString.m */; };
-		DAC383591737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383301737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h */; };
+		DAC383591737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383301737442F0067F161 /* UIActivityIndicatorView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3835A1737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383311737442F0067F161 /* UIActivityIndicatorView+NIStyleable.m */; };
-		DAC3835B1737442F0067F161 /* UIButton+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383321737442F0067F161 /* UIButton+NIStyleable.h */; };
+		DAC3835B1737442F0067F161 /* UIButton+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383321737442F0067F161 /* UIButton+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3835C1737442F0067F161 /* UIButton+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383331737442F0067F161 /* UIButton+NIStyleable.m */; };
-		DAC3835D1737442F0067F161 /* UILabel+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383341737442F0067F161 /* UILabel+NIStyleable.h */; };
+		DAC3835D1737442F0067F161 /* UILabel+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383341737442F0067F161 /* UILabel+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3835E1737442F0067F161 /* UILabel+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383351737442F0067F161 /* UILabel+NIStyleable.m */; };
-		DAC3835F1737442F0067F161 /* UINavigationBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383361737442F0067F161 /* UINavigationBar+NIStyleable.h */; };
+		DAC3835F1737442F0067F161 /* UINavigationBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383361737442F0067F161 /* UINavigationBar+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383601737442F0067F161 /* UINavigationBar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383371737442F0067F161 /* UINavigationBar+NIStyleable.m */; };
-		DAC383611737442F0067F161 /* UIScrollView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383381737442F0067F161 /* UIScrollView+NIStyleable.h */; };
+		DAC383611737442F0067F161 /* UIScrollView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383381737442F0067F161 /* UIScrollView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383621737442F0067F161 /* UIScrollView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383391737442F0067F161 /* UIScrollView+NIStyleable.m */; };
-		DAC383631737442F0067F161 /* UISearchBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833A1737442F0067F161 /* UISearchBar+NIStyleable.h */; };
+		DAC383631737442F0067F161 /* UISearchBar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833A1737442F0067F161 /* UISearchBar+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383641737442F0067F161 /* UISearchBar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3833B1737442F0067F161 /* UISearchBar+NIStyleable.m */; };
-		DAC383651737442F0067F161 /* UITableView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833C1737442F0067F161 /* UITableView+NIStyleable.h */; };
+		DAC383651737442F0067F161 /* UITableView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833C1737442F0067F161 /* UITableView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383661737442F0067F161 /* UITableView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3833D1737442F0067F161 /* UITableView+NIStyleable.m */; };
-		DAC383671737442F0067F161 /* UITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833E1737442F0067F161 /* UITextField+NIStyleable.h */; };
+		DAC383671737442F0067F161 /* UITextField+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC3833E1737442F0067F161 /* UITextField+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC383681737442F0067F161 /* UITextField+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC3833F1737442F0067F161 /* UITextField+NIStyleable.m */; };
-		DAC383691737442F0067F161 /* UIToolbar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383401737442F0067F161 /* UIToolbar+NIStyleable.h */; };
+		DAC383691737442F0067F161 /* UIToolbar+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383401737442F0067F161 /* UIToolbar+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3836A1737442F0067F161 /* UIToolbar+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383411737442F0067F161 /* UIToolbar+NIStyleable.m */; };
-		DAC3836B1737442F0067F161 /* UIView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383421737442F0067F161 /* UIView+NIStyleable.h */; };
+		DAC3836B1737442F0067F161 /* UIView+NIStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC383421737442F0067F161 /* UIView+NIStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC3836C1737442F0067F161 /* UIView+NIStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC383431737442F0067F161 /* UIView+NIStyleable.m */; };
 		DAC3836E1737ED070067F161 /* Preprocessed.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC38319173742E30067F161 /* Preprocessed.m */; };
 		DAE5100A172EE5AC00B5F208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE51009172EE5AC00B5F208 /* Foundation.framework */; };
@@ -994,8 +994,8 @@
 				DA2E0221172EE7C900A7EF9A /* NIInvocationMethods.h in Headers */,
 				DA2E0223172EE7C900A7EF9A /* NimbusCore.h in Headers */,
 				DA2E0224172EE7C900A7EF9A /* NimbusCore+Additions.h in Headers */,
-				DA2E0225172EE7C900A7EF9A /* NINavigationAppearance.h in Headers */,
 				DAC383451737442F0067F161 /* CSSTokens.h in Headers */,
+				DA2E0225172EE7C900A7EF9A /* NINavigationAppearance.h in Headers */,
 				DAC383471737442F0067F161 /* NIChameleonObserver.h in Headers */,
 				DAC383491737442F0067F161 /* NICSSParser.h in Headers */,
 				DAC3834B1737442F0067F161 /* NICSSRuleset.h in Headers */,
